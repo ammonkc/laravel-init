@@ -1,0 +1,56 @@
+{
+    "name": "ammonkc/app-setup-cmd",
+    "description": "Laravel Artisan commands to help with initial app setup",
+    "keywords": [
+        "ammonkc",
+        "app-setup-cmd"
+    ],
+    "homepage": "https://github.com/ammonkc/app-setup-cmd",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ammon Casey",
+            "email": "ammonkc@brokenparadigmlabs.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/console": "~5.7.0|~5.8.*",
+        "illuminate/support": "~5.7.0|~5.8.*",
+        "spatie/laravel-permission": "^2.37"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ammonkc\\AppSetupCmd\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ammonkc\\AppSetupCmd\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ammonkc\\AppSetupCmd\\AppSetupCmdServiceProvider"
+            ],
+            "aliases": {
+                "AppSetupCmd": "Ammonkc\\AppSetupCmd\\AppSetupCmdFacade"
+            }
+        }
+    }
+}
