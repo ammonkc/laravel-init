@@ -1,11 +1,11 @@
 {
-    "name": "ammonkc/app-setup-cmd",
+    "name": "ammonkc/laravel-init",
     "description": "Laravel Artisan commands to help with initial app setup",
     "keywords": [
         "ammonkc",
-        "app-setup-cmd"
+        "laravel-init"
     ],
-    "homepage": "https://github.com/ammonkc/app-setup-cmd",
+    "homepage": "https://github.com/ammonkc/laravel-init",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Ammonkc\\AppSetupCmd\\": "src"
+            "Ammonkc\\Init\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ammonkc\\AppSetupCmd\\Tests\\": "tests"
+            "Ammonkc\\Init\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ammonkc\\AppSetupCmd\\AppSetupCmdServiceProvider"
+                "Ammonkc\\Init\\InitServiceProvider"
             ],
             "aliases": {
-                "AppSetupCmd": "Ammonkc\\AppSetupCmd\\AppSetupCmdFacade"
+                "Init": "Ammonkc\\Init\\AppSetupCmdFacade"
             }
         }
     }

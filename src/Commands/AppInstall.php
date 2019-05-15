@@ -1,6 +1,6 @@
 <?php
 
-namespace Ammonkc\AppSetupCmd\Commands;
+namespace Ammonkc\Init\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Validator;

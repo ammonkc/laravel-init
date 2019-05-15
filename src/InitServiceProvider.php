@@ -1,10 +1,10 @@
 <?php
 
-namespace Ammonkc\AppSetupCmd;
+namespace Ammonkc\Init;
 
 use Illuminate\Support\ServiceProvider;
 
-class AppSetupCmdServiceProvider extends ServiceProvider
+class InitServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
