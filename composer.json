@@ -19,8 +19,8 @@
     ],
     "require": {
         "php": "^7.1",
-        "illuminate/console": "~5.7.0|~5.8.*",
-        "illuminate/support": "~5.7.0|~5.8.*",
+        "illuminate/console": "~5.7.0|~5.8.0",
+        "illuminate/support": "~5.7.0|~5.8.0",
         "spatie/laravel-permission": "^2.37"
     },
     "require-dev": {
