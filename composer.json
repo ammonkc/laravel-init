@@ -1,7 +1,7 @@
 {
     "name": "ammonkc/laravel-init",
     "description": "Laravel Artisan commands to help with initial app setup",
-    "version": "0.1.0",
+    "version": "0.1.3",
     "keywords": [
         "ammonkc",
         "laravel-init",
