@@ -1,9 +1,11 @@
 {
     "name": "ammonkc/laravel-init",
     "description": "Laravel Artisan commands to help with initial app setup",
+    "version": "0.1.0",
     "keywords": [
         "ammonkc",
-        "laravel-init"
+        "laravel-init",
+        "laravel"
     ],
     "homepage": "https://github.com/ammonkc/laravel-init",
     "license": "MIT",
@@ -17,8 +19,8 @@
     ],
     "require": {
         "php": "^7.1",
-        "illuminate/console": "~5.7.0|~5.8.*",
-        "illuminate/support": "~5.7.0|~5.8.*",
+        "illuminate/console": "~5.7.0|~5.8.0",
+        "illuminate/support": "~5.7.0|~5.8.0",
         "spatie/laravel-permission": "^2.37"
     },
     "require-dev": {
@@ -47,10 +49,7 @@
         "laravel": {
             "providers": [
                 "Ammonkc\\Init\\InitServiceProvider"
-            ],
-            "aliases": {
-                "Init": "Ammonkc\\Init\\AppSetupCmdFacade"
-            }
+            ]
         }
     }
 }
