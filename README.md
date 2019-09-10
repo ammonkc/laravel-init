@@ -1,11 +1,11 @@
-# Very short description of the package
+# Collection of Laravel commands to setup a new project
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ammonkc/laravel-init.svg?style=flat-square)](https://packagist.org/packages/ammonkc/laravel-init)
 [![Build Status](https://img.shields.io/travis/ammonkc/laravel-init/master.svg?style=flat-square)](https://travis-ci.org/ammonkc/laravel-init)
 [![Quality Score](https://img.shields.io/scrutinizer/g/ammonkc/laravel-init.svg?style=flat-square)](https://scrutinizer-ci.com/g/ammonkc/laravel-init)
 [![Total Downloads](https://img.shields.io/packagist/dt/ammonkc/laravel-init.svg?style=flat-square)](https://packagist.org/packages/ammonkc/laravel-init)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Commands to create a default user
 
 ## Installation
 
