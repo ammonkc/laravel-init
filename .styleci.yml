@@ -1,4 +1,7 @@
 preset: laravel
 
 disabled:
+  - self_accessor
+  - short_list_syntax
+  - alpha_ordered_imports
   - single_class_element_per_statement
