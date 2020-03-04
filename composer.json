@@ -1,7 +1,7 @@
 {
     "name": "ammonkc/laravel-init",
     "description": "Laravel Artisan commands to help with initial app setup",
-    "version": "0.1.4",
+    "version": "0.2.0",
     "keywords": [
         "ammonkc",
         "laravel-init",
@@ -19,13 +19,13 @@
     ],
     "require": {
         "php": "^7.1",
-        "illuminate/console": "^5.7|^5.8|^6.0",
-        "illuminate/support": "^5.7|^5.8|^6.0",
+        "illuminate/console": "^5.7|^5.8|^6.0|^7.0|^8.0",
+        "illuminate/support": "^5.7|^5.8|^6.0|^7.0|^8.0",
         "spatie/laravel-permission": "^2.37|^3.0"
     },
     "require-dev": {
-        "orchestra/testbench": "3.8.*",
-        "phpunit/phpunit": "^7.0"
+        "orchestra/testbench": "^3.5|^4.0|^5.0|^6.0",
+        "phpunit/phpunit": "^8.5"
     },
     "autoload": {
         "psr-4": {
